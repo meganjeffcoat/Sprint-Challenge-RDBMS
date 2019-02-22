@@ -29,20 +29,33 @@ This will be akin to the Web API that you built in the last sprint, only this ti
 Demonstrate your understanding of this week's concepts by answering the following free-form questions. Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager.
 
 1. Explain the difference between `RDBMS` and `SQL`.
+
+  RDBMS is the database itself which holds all of your information and manages storage, querying and updating.
+  SQL or Structured Query Language is a language or family of closely related languages which typically is used to query the RDBMS.
+
 1. Why do tables need a `primary key`?
+
+  The primary key provides a unique identifier to each row in a table. The PK is mandatory in order to define a Foreign Key relationship between a child table and a parent table.
+
 1. What is the name given to a table column that references the primary key on another table.
+
+  The name give to a table column that references the primary key on another table is a Foreign Key
+
 1. What do we need in order to have a _many to many_ relationship between two tables.
+
+  many to many relationship is created when the parent table's data can have multiple associated entries in the children table
+
 
 ## Project Set Up
 
 Follow these steps for starting your project.
 
-- [ ] Create a forked copy of this project.
-- [ ] Add your project manager as collaborator on Github.
-- [ ] Clone your OWN version of the repository (Not Lambda's by mistake!).
-- [ ] Create a new branch: git checkout -b `<firstName-lastName>`.
-- [ ] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
-- [ ] Push commits: git push origin `<firstName-lastName>`.
+- [X] Create a forked copy of this project.
+- [X] Add your project manager as collaborator on Github.
+- [X] Clone your OWN version of the repository (Not Lambda's by mistake!).
+- [X] Create a new branch: git checkout -b `<firstName-lastName>`.
+- [X] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
+- [X] Push commits: git push origin `<firstName-lastName>`.
 
 Follow these steps for completing your project.
 
